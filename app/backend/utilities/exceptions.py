@@ -8,9 +8,11 @@ class Status(enum.Enum):
     OK = 0
     FAILED = 1
     ERROR = 2
-    EXCEPTION = 3
-    WARNING = 4
-    ABORTED = 5
+    NOT_FOUND = 6
+    INVALID = 7
+    EXPIRED = 8
+    EXISTS = 9
+
 
 
 class TaskManagerException(HTTPException):

@@ -15,6 +15,7 @@ class UserCreate(UserBaseSchema):
 
 class UserToDB(UserBaseSchema):
     hashed_password: str
+    refresh_token: Optional[str] = None
 
 
 class UserDB(UserBaseSchema):

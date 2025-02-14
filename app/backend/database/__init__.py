@@ -1,2 +1,2 @@
-from app.backend.database.models.Task import BaseModel
-from app.backend.database.models.User import BaseModel
+from app.backend.models.User import BaseModel
+from app.backend.models.Task import BaseModel
